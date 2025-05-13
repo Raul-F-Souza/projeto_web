@@ -123,12 +123,17 @@
                         Programação de Computadores <br>
                     </td>
                     <td>
-                        Período:
-                        <label for="f_turno"></label><br>
-                        <input type="radio" name="f_turno" id="f_turno" value="Matutino">
-                        Matutino <br>
-                        <input type="radio" name="f_turno" id="f_turno" value="Noturno">
-                        Noturno <br>
+                        <label for="f_opcao">Opção de Contato  </label>
+                        <select name="f_opcao" id="f_opcao">
+                            <option value="Sugestao">Sugestão</option>
+                            <option value="Reclamacao">Reclamação</option>
+                            <option value="Informacao">Informação</option>
+                        </select> 
+                        <br>
+                        <textarea name="f_msg" id="">
+                        Digite seu texto...
+                        </textarea>
+                        
                     </td>
                 </tr>
                 <tr>
